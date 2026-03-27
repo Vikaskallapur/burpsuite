@@ -1,13 +1,12 @@
 
 
-## Introduction
+# Introduction
 
 Authentication mechanisms are a critical component of web application security, as they control access to sensitive data and user accounts. 
 Weak or improperly implemented authentication systems can allow attackers to gain unauthorized access through techniques such as brute-force attacks or credential guessing.
 
----
 
-## Objective
+# Objective
 
 1. To understand how Burp Suite works
 2. To intercept and analyze HTTP requests
@@ -15,11 +14,9 @@ Weak or improperly implemented authentication systems can allow attackers to gai
 4. To use tools like Repeater and Intruder
 5. To identify vulnerabilities and suggest fixes
 
----
 
-## Step-by-Step Guide
+# Step-by-Step Guide
 
----
 
 ## Task 1: Intercepting Request
 
@@ -142,14 +139,13 @@ Weak or improperly implemented authentication systems can allow attackers to gai
   
   ![Intercepting Request](images/pic11.png)
 
-## Results
+# Results
 
 * Identified authentication vulnerabilities
 * Successfully tested attack methods
 
----
 
-## Conclusion
+# Conclusion
 
 The project demonstrates a practical **authentication vulnerability assessment** using Burp Suite. By performing controlled brute-force testing, 
 valid credentials were discovered, confirming the importance of implementing strong authentication protections in web applications.
